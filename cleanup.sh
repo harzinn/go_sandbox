@@ -4,4 +4,5 @@ go build -o ../../apps/sandbox
 echo "Done"
 echo "Cleaning up..."
 rm sandbox
+rm ${PWD}/temp/*
 echo "Done"
